@@ -1,0 +1,38 @@
+/* ? GENERAL STYLE RULES */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* ? COMMON STYLING */
+
+button {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+.container {
+	width: 82.5%;
+	max-width: 132rem;
+	margin: 0 auto;
+}
+
+.section--title {
+	font-family: "Merriweather", serif;
+}
+
+.section--heading {
+	font-family: "Inter", sans-serif;
+}
