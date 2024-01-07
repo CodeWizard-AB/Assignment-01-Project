@@ -13,9 +13,12 @@ html {
 /* ? COMMON STYLING */
 
 button {
-	background: none;
+	background: #f00;
 	border: none;
 	outline: none;
+	padding: 1.6rem 3.2rem;
+	color: #ffffff;
+  font-weight: 700;
 }
 
 input {
