@@ -227,12 +227,46 @@ footer {
 	background: #070211;
 	color: #fff;
 	padding: 12rem 0;
+	font-size: 2.3rem;
 }
 
 .footer_container__address {
 	display: flex;
+	padding-bottom: 5rem;
+}
+
+.footer_container__address___contact:first-of-type {
+	flex: 0.88;
 }
 
 .footer_container__address___contact {
-	font-size: ;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+.footer_container__address___contact figure {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.footer_container__address___contact figure img {
+	max-width: 2.4rem;
+	max-height: 2.4rem;
+}
+
+.footer_container__links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.4rem;
+	border-bottom: 1px solid #ffffff26;
+	border-top: 1px solid #ffffff26;
+	padding: 4.8rem 0;
+}
+
+.footer_container__copyright {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 4rem;
 }
