@@ -37,6 +37,7 @@ input {
 
 .section--title {
 	font-family: "Merriweather", serif;
+	font-weight: 900;
 }
 
 .section--heading {
@@ -44,7 +45,7 @@ input {
 }
 
 .content--summary {
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.8;
 	font-family: "Inter", sans-serif;
@@ -55,6 +56,11 @@ input {
 	font-size: 4.6rem;
 	font-weight: 900;
 	letter-spacing: 0.5;
+}
+
+.content--subheading {
+	font-size: 2.3rem;
+	font-weight: 500;
 }
 
 .highlight--color {

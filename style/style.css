@@ -128,7 +128,7 @@ main section {
 	border-radius: 0.8rem;
 }
 
-/* ? UPCOMING OFFER SECTION */
+/* ? UPCOMING OFFER STYLE */
 
 .upcoming-offer_container {
 	display: flex;
@@ -153,12 +153,26 @@ main section {
 .upcoming-offer_container__display {
 	border-radius: 50%;
 	border: 1.3rem solid #f00;
-	max-width: 46rem;	
+	max-width: 46rem;
 	padding: 3rem;
 }
 
 .upcoming-offer_container .upcoming-offer_container__content:last-child {
 	align-self: flex-end;
+}
+
+/* ? HOLIDAY SECTION STYLE */
+
+.holiday_container__content {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 100rem;
+	padding: 1rem 5rem;
+}
+
+.holiday_container__content h1 {
+	font-size: 6.9rem;
+	margin: 1rem 0 2rem;
 }
 
 /* ? PORTFOLIO SECTION STYLE */
@@ -243,8 +257,11 @@ main section {
 	padding: 2.5rem 3rem;
 	font-size: 1.8rem;
 	letter-spacing: 0.5px;
-	color: rgba(7, 2, 17, 0.144);
 	font-weight: 400;
+}
+
+.newsletter_container__form input::placeholder {
+	color: #0702114d;
 }
 
 .newsletter_container__form button {
