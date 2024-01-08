@@ -11,7 +11,7 @@ html {
 	color: #070211;
 }
 
-/* ? COMMON STYLING */
+/* ? COMMON STYLE RULES */
 
 button {
 	background: #ff0000d3;
@@ -41,4 +41,22 @@ input {
 
 .section--heading {
 	font-family: "Inter", sans-serif;
+}
+
+.content--summary {
+	font-size: 1.9rem;
+	font-weight: 400;
+	line-height: 1.8;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 4rem;
+}
+
+.content--heading {
+	font-size: 4.6rem;
+	font-weight: 900;
+	letter-spacing: 0.5;
+}
+
+.highlight--color {
+	color: #f00;
 }

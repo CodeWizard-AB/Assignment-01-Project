@@ -128,6 +128,39 @@ main section {
 	border-radius: 0.8rem;
 }
 
+/* ? UPCOMING OFFER SECTION */
+
+.upcoming-offer_container {
+	display: flex;
+	gap: 7rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.upcoming-offer_container__content h1 {
+	margin: 1rem 0 2rem;
+}
+
+.upcoming-offer_container__content h2 {
+	font-size: 2.3rem;
+	font-weight: 500;
+}
+
+.upcoming-offer_container__content p {
+	max-width: 39rem;
+}
+
+.upcoming-offer_container__display {
+	border-radius: 50%;
+	border: 1.3rem solid #f00;
+	max-width: 46rem;	
+	padding: 3rem;
+}
+
+.upcoming-offer_container .upcoming-offer_container__content:last-child {
+	align-self: flex-end;
+}
+
 /* ? PORTFOLIO SECTION STYLE */
 
 .portfolio_container__content h2 {
