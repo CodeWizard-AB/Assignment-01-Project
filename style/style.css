@@ -175,6 +175,42 @@ main section {
 	margin: 1rem 0 2rem;
 }
 
+.holiday_container__display {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 3rem;
+}
+
+.holiday_container__display___figure--01 {
+	display: flex;
+	max-width: 43rem;
+	position: relative;
+}
+
+.holiday_container__display___figure--01 img:nth-child(2) {
+	position: absolute;
+	max-width: 30rem;
+	left: 0;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.holiday_container__display figure img {
+	width: 100%;
+}
+
+.holiday_container__display___figure--02 {
+	position: relative;
+}
+
+.holiday_container__display___figure--02 img:nth-child(2) {
+	position: absolute;
+	max-width: 70rem;
+	left: 5rem;
+	bottom: 3rem;
+}
+
 /* ? PORTFOLIO SECTION STYLE */
 
 .portfolio_container__content h2 {
